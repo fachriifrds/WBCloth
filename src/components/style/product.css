@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container-2 {
+  background-image: url("/public/images/image-bg-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.card-group {
+  width: 95%;
+}
+.img-container-2 {
+  width: 75%;
+  max-width: 100%;
+}
+
+.card-container-2 {
+  padding: 1rem;
+  color: white;
+  margin: 2rem;
+}
+.card-body-container-2 {
+  width: 110%;
+  margin-left: -0.5rem;
+}
+.btn-container-2 {
+  display: flex;
+  justify-content: center;
+  margin-left: -0.7rem;
+  margin-bottom: -1.3rem;
+}
+.btn-1 {
+  margin: 5px;
+  width: 75%;
+  max-width: 110%;
+}
+.btn-2 {
+  margin: 5px;
+  width: 25%;
+  max-width: 110%;
+}
+
+@media (max-width: 768px) {
+  .container-2 {
+    height: auto;
+  }
+}

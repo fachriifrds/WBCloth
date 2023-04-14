@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container-3 {
+  background-image: url("/public/images/image-bg-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.img-container-3 {
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  max-width: 100%;
+}
+
+.card-container-3 {
+  color: white;
+  width: 25%;
+  max-width: 100%;
+}
+.card-group-container-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  .card-container-3 {
+    max-width: 100%;
+    width: 75%;
+    margin: 1rem;
+  }
+  .img-container-3 {
+    width: 35%;
+  }
+  .card-group-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container-1 {
+  background-image: url("/public/images/image-bg-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 104.7vh;
+  opacity: 90%;
+}
+.h1-container-1 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  width: 40%;
+  padding-top: 12rem;
+  text-shadow: 2px 1px 5px black;
+}
+.p-container-1 {
+  color: white;
+  font-size: 25px;
+  width: 40%;
+  text-shadow: 2px 1px 5px black;
+}
+.img-container-1 {
+  position: relative;
+  margin-top: -28.8rem;
+  margin-left: 40rem;
+  width: 41.9%;
+  max-width: 100%;
+  justify-content: end;
+}
+
+/* Untuk tampilan pada perangkat mobile */
+@media (max-width: 768px) {
+  .h1-container-1 {
+    width: 50%;
+    padding-top: 10rem;
+    font-size: 25px;
+  }
+  .p-container-1 {
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+  }
+  .btn-container-1 {
+    margin-left: 23px;
+  }
+  .img-container-1 {
+    margin-left: 11rem;
+    width: 124.4%;
+    margin-top: -26.1rem;
+    max-width: 150%;
+  }
+}
